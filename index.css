@@ -1,0 +1,65 @@
+* {
+        box-sizing : border-box;
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        font-family: 'Quicksand', sans-serif;
+    }
+    .my-services {
+    text-align: center;
+    background-color: #FBFBFB;
+    padding: 50px 0;
+}
+.main h2 {
+    padding-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:900;
+}
+.main p {
+    line-height: 25px;
+    padding: 0 15px 20px 15px;
+    color: #8A90A2;
+    font-size: 16px;
+}
+.part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px #ECEFF8 solid;
+    border-radius: 6px;
+    background-color: white;
+    padding: 15px 20px;
+    margin: 20px 10px;
+}
+ .part i {
+    color: #754EF9;
+    font-size: 200%;
+    padding-bottom: 10px;
+}
+.text h3 {
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.text p {
+    color: #8A90A2;
+    line-height: 25px;
+}
+.cup-image {
+    text-align: center;
+    padding: 50px 15px;
+    background-image: linear-gradient(to top, rgba(117,78,249,0.6), rgba(117,78,249,0.6)), url(assets/call-to-action.jpg);
+    background-size: cover;
+    color: white;
+    background-position: top;
+    background-size: 464%;
+}
+.cup-image h2 {
+padding-bottom: 250px;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
