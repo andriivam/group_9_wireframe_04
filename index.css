@@ -1,0 +1,93 @@
+/* Body style */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*  ABOUT ME STYLE */
+.about_p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  padding: 50px 0px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font {
+  font-family: "Roboto", sans-serif;
+}
+.font-text {
+    font-family: "Quicksand", sans-serif;
+}
+
+.text-color {
+  color: #9398a8;
+}
+
+.about_me {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 9px;
+  column-gap: 10px;
+}
+.icon {
+  color: #8969fa;
+}
+
+/* Progress bar */
+.progress-bar {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  padding: 0px 30px;
+  padding-bottom: 50px;
+}
+
+.progress-name {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 6px;
+}
+
+.border {
+  background-color: #d9d9d9;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.progress {
+  height: 6px;
+  background-color: #744ef9;
+  width: 80%;
+  border-radius: 10px;
+}
+.progress_css {
+  height: 6px;
+  background-color: #744ef9;
+  width: 60%;
+  border-radius: 10px;
+}
+.progress_ph {
+  height: 6px;
+  background-color: #744ef9;
+  width: 50%;
+  border-radius: 10px;
+}
+.progress_s {
+  height: 6px;
+  background-color: #744ef9;
+  width: 90%;
+  border-radius: 10px;
+}
