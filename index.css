@@ -163,3 +163,79 @@ body {
 	width: 30px;
 	background-color: #754EF9;
 }
+/*  ABOUT ME STYLE */
+.about_p {
+    font-size: 16px;
+    line-height: 30px;
+    padding: 50px 0px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .font {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .text-color {
+    color: #9398a8;
+  }
+  
+  .about_me {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+  }
+  /* Personal info style */
+  .flex {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 9px;
+    column-gap: 10px;
+  }
+  /* Icons color */
+  .icon {
+    color: #8969fa;
+  }
+  
+  /* Progress bar */
+  .progress-bar {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    padding: 0px 30px;
+    padding-bottom: 50px;
+  }
+  
+  .progress-name {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 6px;
+  }
+  
+  .border {
+    background-color: #d9d9d9;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .progress {
+    height: 6px;
+    background-color: #744ef9;
+    border-radius: 10px;
+  }
+  .progress-width {
+    width: 80%;
+  }
+  .progress-width-2 {
+    width: 60%;
+  }
+  .progress-width-3 {
+    width: 50%;
+  }
+  .progress-width-4 {
+    width: 90%;
+  }
