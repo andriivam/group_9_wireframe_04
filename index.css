@@ -582,3 +582,75 @@ body {
     padding-top: 20px;
     padding-bottom: 70px;
 }
+/* RECENT WORKS STYLE */
+.h-work {
+  padding: 50px 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.p-work {
+  padding: 0 30px;
+  color: #8b91a1;
+  line-height: 24px;
+  font-size: 16px;
+}
+/* Flex container */
+.flex-container {
+  display: flex;
+flex-direction: column;
+align-items: center;
+gap: 32px;
+}
+.img-group{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+/* Style for images */
+.back {
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  width: 90vw;
+  height: 340px;
+
+}
+
+.back-chicken {
+  background-image: url(assets/work-images/chicken.jpeg);
+}
+
+.back-robot {
+  background-image: url(assets/work-images/robot.webp);
+}
+.b-work {
+  background-image: url(assets/work-images/work_a.webp)
+}
+.b-car {
+  background-image: url(assets/work-images/car.jpeg)
+}
+.b-flowers {
+  background-image: url(assets/work-images/flowers.jpeg)
+}
+.b-toy {
+  background-image: url(assets/work-images/toys.png)
+}
+/* Button Style */
+.btn-div {
+  margin-bottom: 50px;
+}
+
+.btn-work {
+  border: none;
+  background-color:#754EF9;
+  color:white;
+  border-radius: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  padding: 15px 30px;
+
+  box-shadow: 0 3px 6px 1px rgba(117,78,249, 0.5);
+}
