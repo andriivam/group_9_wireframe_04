@@ -1,8 +1,9 @@
-* {
-    box-sizing : border-box;
+
+   * {
     margin: 0;
     padding: 0;
-}
+    box-sizing: border-box;
+   }
 
 body {
     width: 100vw;
@@ -162,4 +163,171 @@ body {
 	height: 3px;
 	width: 30px;
 	background-color: #754EF9;
+}
+/*  ABOUT ME STYLE */
+.about_p {
+    font-size: 16px;
+    line-height: 30px;
+    padding: 50px 0px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .font {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .text-color {
+    color: #9398a8;
+  }
+  
+  .about_me {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+  }
+  /* Personal info style */
+  .flex {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 9px;
+    column-gap: 10px;
+  }
+  /* Icons color */
+  .icon {
+    color: #8969fa;
+  }
+  
+  /* Progress bar */
+  .progress-bar {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    padding: 0px 30px;
+    padding-bottom: 50px;
+  }
+  
+  .progress-name {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 6px;
+  }
+  
+  .border {
+    background-color: #d9d9d9;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .progress {
+    height: 6px;
+    background-color: #744ef9;
+    border-radius: 10px;
+  }
+  .progress-width {
+    width: 80%;
+  }
+  .progress-width-2 {
+    width: 60%;
+  }
+  .progress-width-3 {
+    width: 50%;
+  }
+  .progress-width-4 {
+    width: 90%;
+  }
+
+/* Arsenia*/
+.my-services {
+  text-align: center;
+  background-color: #FBFBFB;
+  padding: 50px 0;
+}
+.main {
+  text-align: center;
+}
+.main h2 {
+  padding-bottom: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight:900;
+}
+.main p {
+  line-height: 25px;
+  padding: 0 15px 20px 15px;
+  color: #8A90A2;
+  font-size: 16px;
+}
+.part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px #ECEFF8 solid;
+  border-radius: 6px;
+  background-color: white;
+  padding: 15px 20px;
+  margin: 20px 10px;
+  font-size: 16px;
+}
+.part i {
+  color: #754EF9;
+  font-size: 200%;
+  padding-bottom: 10px;
+}
+.text h3 {
+  padding-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+.text p {
+  color: #8A90A2;
+  line-height: 25px;
+}
+.cup-image {
+  text-align: center;
+  padding: 50px 15px;
+  background-image: linear-gradient(to top, rgba(117,78,249,0.8), rgba(117,78,249,0.8)), url(assets/call-to-action.jpg);
+  color: white;
+  background-position: top;
+  background-size: 448%;
+  background-repeat: no-repeat;
+}
+.cup-image h2 {
+  padding-bottom: 28px;
+  font-size: 37px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  line-height: 40px;
+}
+.cup-image p {
+  font-size: 16px;
+  line-height: 25px;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+.white-button {
+  background-color: white;
+  color: #754EF9;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 30px;
+  margin: 25px 0 10px 0;
+}
+.transparent-button {
+  background-color: transparent;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  padding: 16px 57px;
+  border: 2px white solid;
+  border-radius: 30px;
+  margin-bottom: 4px;
 }
