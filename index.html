@@ -14,9 +14,17 @@
 <body>
  
     <!--THIS IS THE NAVIGATION -->
-    <section>
+    <section id="home">
         <div class="nav">
             <img class="logo" src="./assets/images/logo.png">
+            <div class="navigation">
+              <a href="#home">HOME</a>
+              <a href="#about">ABOUT</a>
+              <a href="#services">SERVICES</a>
+              <a href="#portfolio">PORTFOLIO</a>
+              <a href="#blog">BLOG</a>
+              <a href="#contact">CONTACT</a>
+            </div>
             <i class="fa-solid fa-bars"></i>
             
     </section>
@@ -25,44 +33,90 @@
 
     <section>
         <div class="banner">
-            <p></p>
-            <p></p>
-            <p></p>
+            <p class="fake"></p>
+            <p class="fake"></p>
+            <p class="fake"></p>
             <div class="infoz">
+                <div class="infospace"></div>
                 <p class="hello">HELLO, I'M</p>
                 <p class="mark">MARK PARKER</p>
                 <p class="freelance">A freelance UI Designer & Web Developer</p>
-                <button class="vmw">VIEW MY WORK</button>
+               <form> <button class="vmw" formaction="#portfolio">VIEW MY WORK</button></form>
+                <div class="divicon2">
+                  <div class="line-container">
+                      <div class="line">
+                       </div>
+                  </div>
+                  <div class="iconz">
+                    <a href="https://fr-fr.facebook.com" target="_blank">
+                      <span class="fa-stack small">
+                          <i class="fa-regular fa-circle fa-stack-2x"></i>
+                          <i class="fa-brands fa-facebook-f fa-stack-1x"></i>
+                      </span>
+                    </a>
+                    <a href="https://twitter.com" target="_blank">
+                      <span class="fa-stack small">
+                          <i class="fa-regular fa-circle fa-stack-2x"></i>
+                          <i class="fa-brands fa-twitter fa-stack-1x"></i>                        
+                      </span>
+                    </a>
+                    <a href="https://www.behance.net" target="_blank">
+                      <span class="fa-stack small">
+                          <i class="fa-regular fa-circle fa-stack-2x"></i>
+                          <i class="fa-brands fa-behance fa-stack-1x"></i>
+                      </span>
+                    </a>
+                    <a href="https://fr.linkedin.com" target="_blank">
+                      <span class="fa-stack small">
+                          <i class="fa-regular fa-circle fa-stack-2x"></i>                               
+                          <i class="fa-brands fa-linkedin fa-stack-1x"></i>
+                      </span>
+                    </a>
+                  </div>
+                  
+              </div>
             </div>
-            <p></p>
-            <p></p>
+            <p class="fake"></p>
+            <p class="fake"></p>
+            <img class="finger" src="./assets/images/fingerguyclean.png">
             <div class="divicon">
                 <div class="line-container">
                     <div class="line">
                      </div>
                 </div>
                 <div class="iconz">
+                  <a href="https://fr-fr.facebook.com" target="_blank">
                     <span class="fa-stack small">
                         <i class="fa-regular fa-circle fa-stack-2x"></i>
                         <i class="fa-brands fa-facebook-f fa-stack-1x"></i>
                     </span>
+                  </a>
+                  <a href="https://twitter.com" target="_blank">
                     <span class="fa-stack small">
                         <i class="fa-regular fa-circle fa-stack-2x"></i>
-                        <i class="fa-brands fa-twitter fa-stack-1x"></i>                        </span>
+                        <i class="fa-brands fa-twitter fa-stack-1x"></i>                        
+                    </span>
+                  </a>
+                  <a href="https://www.behance.net" target="_blank">
                     <span class="fa-stack small">
                         <i class="fa-regular fa-circle fa-stack-2x"></i>
                         <i class="fa-brands fa-behance fa-stack-1x"></i>
                     </span>
+                  </a>
+                  <a href="https://fr.linkedin.com" target="_blank">
                     <span class="fa-stack small">
                         <i class="fa-regular fa-circle fa-stack-2x"></i>                               
                         <i class="fa-brands fa-linkedin fa-stack-1x"></i>
                     </span>
+                  </a>
                 </div>
+                
             </div>
+            
         </div>
     </section>
      <!--About Me  -->
-     <section>
+     <section id="about">
         <div class="about_me">
           <h2>About Me</h2>
           <p>
@@ -128,7 +182,7 @@
         </div>
       </section>
         <!-- My services -->
-      <section>
+      <section id="services">
         <div class="my-services">
     <div class="main">
         <h2>My services</h2>
@@ -196,7 +250,7 @@
     </section>
   
       <!-- My Recent Work -->
-      <section>
+      <section id="portfolio">
         <h3 class="h-work">My Recent Works</h3>
         <p class="p-work">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus magni, commodi dolores, dignissimos perferendis at laboriosam suscipit omnis earum fugit pariatur dolorem quia architecto adipisci ea iste eius! Odit, qui.</p>
         <div class="flex-container">
@@ -280,10 +334,10 @@
 
  <!--THIS IS FROM THE BLOG -->
 
-<section>
+<section id="blog">
     <div class="blog">
         <h2>From The Blog</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit harum, officia nihil alias officiis dolore! Nemo vitae ea optio totam!</p>
+        <p class="blogtext">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit harum, officia nihil alias officiis dolore! Nemo vitae ea optio totam!</p>
         <div class="blogimg">
             <div class="imgcontainer1">
                 <div class="description1">
@@ -310,7 +364,7 @@
 
   <!--THIS IS GET IN TOUCH-->
 
-<section>
+<section id="contact">
     <div class="getintouch">
        <h2>Get In Touch</h2>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit harum, officia nihil alias officiis dolore! Nemo vitae ea optio totam!</p>
@@ -330,6 +384,26 @@
             <h3>Email</h3>
             <p>support@yourmail.com</p>
             <p>info@helpline.com</p>
+        <h2>Get In Touch</h2>
+        <p class="gettext">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit harum, officia nihil alias officiis dolore! Nemo vitae ea optio totam!</p>
+        <div class="getbox">
+          <div class="part2">
+              <i class="fa-solid fa-location-dot"></i>
+              <h3>Adress</h3>
+              <p>123 Street New York City, United States Of America 750</p>
+          </div>
+          <div class="part2">
+              <i class="fa-solid fa-phone"></i>
+              <h3>Phone</h3>
+              <p>+931 2222 5555</p>
+              <p>+547 5554 6663</p>
+          </div>
+          <div class="part2">
+              <i class="fa-solid fa-envelope"></i>
+              <h3>Email</h3>
+              <p>support@yourmail.com</p>
+              <p>info@helpline.com</p>
+          </div>
         </div>
     </div>
 </section>
@@ -338,7 +412,7 @@
 <section>
   <div class="responsive-box">
     <div class="responsiverow">
-        <div class="form">  
+        <form class="form">  
             <label for="name"></label>
             <input type="text" id="name" name="name" placeholder="Name">
         
@@ -349,7 +423,7 @@
             <input type="text" id="message" name="message" placeholder="Message" style="height:200px"></textarea>
 
             <button class="sendmsg">SEND MESSAGE</button>
-        </div>
+        </form>
         <div class="mapcontainer">
             <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.223409614269!2d4.355365315825467!3d50.845547066698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c47fce0ba71d%3A0x2f634768a374d3b0!2sCantersteen%2010%2C%201000%20Bruxelles!5e0!3m2!1sfr!2sbe!4v1665483336629!5m2!1sfr!2sbe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
