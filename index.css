@@ -983,24 +983,6 @@ gap: 32px;
   padding-bottom: 30px;
 }
 
-.responsiverow {
-  flex-direction: row;
-  width: 70%;
-  justify-content: center;
-  align-items: center;
-}
-
-.form {
-  width: 50%;
-}
-
-.mapcontainer {
-  width: 50%;
-}
-
-  /* BEN */
-
-
 
 /* BEN ARS Form and Map*/
 .responsive-box {
@@ -1015,7 +997,6 @@ gap: 32px;
 .form {
   width: 50%;
   height: 90%;
-  margin-left: 18px;
   margin-right: 15px;
   align-items: flex-start;
 }
@@ -1139,7 +1120,7 @@ gap: 32px;
 
 
   /* ARSENIIA */
-
+go
 
   /* ARSENIIA */
 
