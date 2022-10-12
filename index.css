@@ -11,6 +11,10 @@ body {
     font-size: 16px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 
 .nav {
     display: flex;
@@ -39,6 +43,10 @@ body {
     font-size: 30px;
     padding-right: 15px;
     color: #754EF9;
+}
+
+.navigation {
+  display: none;
 }
 
 .banner {
@@ -85,6 +93,10 @@ body {
     justify-content: space-around;
 }
 
+.finger {
+  display: none;
+}
+
 .infoz {
     padding-left: 10px;
 }
@@ -128,6 +140,8 @@ body {
     display: inline-block;
     width: 220px;
     height: auto;
+    box-shadow: 0 3px 6px 1px rgba(117,78,249, 0.5);
+    transition: all 0.5s ease;
 }
 
 .vmw:hover {
@@ -146,6 +160,7 @@ body {
     display: inline-block;
     width: 220px;
     height: auto;
+    box-shadow: 0 3px 6px 1px rgba(117,78,249, 0.5);
 }
 
 .divicon {
@@ -154,8 +169,24 @@ body {
     align-items: center;
 }
 
+.divicon2 {
+  color: #CCCCCC;
+  display: none;
+  align-items: center;
+}
+
 .fa-stack {
     font-size: 30px;
+}
+
+.iconz a {
+  text-decoration: inherit;
+  color: inherit;
+  transition: all 0.5s ease;
+}
+
+.iconz a:hover {
+  color: #754EF9;
 }
 
 
@@ -192,7 +223,6 @@ flex-direction: column;
   text-align: center;
   }
   .about_me p {
-    color: #9398a8;  
     line-height: 25px;
     padding: 0 15px 20px 15px;
     color: #8A90A2;
@@ -211,7 +241,6 @@ flex-direction: column;
     font-weight: 700;
   }
   .mark1 p {
-    color: #9398a8;  
     line-height: 25px;
     padding: 0 15px 20px 15px;
     color: #8A90A2;
@@ -565,6 +594,13 @@ flex-direction: column;
       font-size: 16px;
     }
 
+    .getbox {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
 
   .part2 {
     display: flex;
@@ -763,25 +799,324 @@ gap: 32px;
 }
 
 
-
-
-
 @media only screen and (min-width: 550px) {
   body {
       width: 100%;
   }
 
   /* BEN */
+  
+
+.nav img {
+    width: 200px;
+    margin-left: 20%;
+    margin-top: 22px
+}
+
+.nav i {
+  display: none;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  padding-right: 400px;
+
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #8A90A2;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+
+.navigation a:hover {
+  text-decoration: none;
+  color: #754EF9;
+  padding-left: 20px;
+  padding-top: 30px;
+
+}
 
 
-  /* BEN */
+.finger {
+  display: flex;
+  width: 300px;
+  height: auto;
+}
 
+.banner {
+  background-color: #FBFBFB;
+  width: 100vw;
+  height: 642px;
+  box-shadow: inset -10px 30px 50px -50px rgba(50, 50, 50, 0.75);
+  background-repeat: no-repeat;
+  background-image: 
+  url(./assets/images/banner/shape/shape-1.png),
+  url(./assets/images/banner/shape/shape-2.png),
+  url(./assets/images/banner/shape/shape-3.png),
+  url(./assets/images/banner/shape/shape-1.png),
+  url(./assets/images/banner/shape/shape-3.png),
+  url(./assets/images/banner/shape/shape-3.png),
+  url(./assets/images/banner/shape/shape-6.png),
+  url(./assets/images/banner/shape/shape-4.png),
+  url(./assets/images/banner/shape/shape-5.png),
+  url(./assets/images/banner/shape/shape-3.png);
+  background-position: 
+  top -30px left,
+  top 15px right 350px,
+  top -15px right 950px,
+  top 260px right 200px,
+  top 500px right 100px,
+  top 380px right 440px,
+  top 500px right 750px,
+  top 260px right 1420px,
+  bottom 50px left 10px,
+  bottom 140px left 60px;
+  background-size: 
+  90px,
+  95px,
+  180px,
+  90px,
+  180px,
+  180px,
+  150px,
+  50px,
+  180px,
+  180px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 300px;
+
+}
+
+.divicon {
+  display: none;
+}
+
+.fake {
+  display: none;
+}
+
+.hello {
+  font-size: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.mark {
+  font-size: 55px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.freelance {
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.divicon2 {
+  display: flex;
+  padding-top: 120px;
+
+}
+
+.line{
+	height: 3px;
+	width: 30px;
+	background-color: #754EF9;
+}
+
+
+.infoz {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.infospace {
+  height: 130px;
+}
+
+
+
+
+
+.blogimg {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+}
+.blogtext {
+  width: 40%;
+}
+.blog h2 {
+  font-size: 40px;
+}
+
+.imgcontainer1 {
+  width: 32%;
+  height: 400px;
+  margin-right: 2%;
+}
+
+.imgcontainer2 {
+  width: 32%;
+  height: 400px;
+  margin-top: 0px;
+}
+
+
+.imgcontainer3 {
+  width: 32%;
+  height: 400px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 2%;
+}
+
+.getbox {
+  flex-direction: row;
+  width: 70%;
+}
+
+.getintouch h2 {
+  font-size: 40px;
+}
+
+.gettext {
+  width: 40%;
+}
+
+.part2 {
+  height: 280px;
+}
+
+.part2 i {
+  font-size: 300%;
+  padding-bottom: 30px;
+}
+
+
+/* BEN ARS Form and Map*/
+.responsive-box {
+  display: flex;
+  justify-content: center;
+  background-color: #FBFBFB;
+}
+.responsiverow {
+  flex-direction: row;
+  width: 70%;
+}
+.form {
+  width: 50%;
+  height: 90%;
+  margin-right: 15px;
+  align-items: flex-start;
+}
+ input #message {
+  margin-bottom: 10px;
+ }
+ .mapcontainer {
+  width: 50%;
+  height: 81%;
+
+/* BEN ARS Footer*/
+ }
+ .bigfooter img {
+  padding-top: 90px;
+ }
+ .footerp {
+  width: 50%;
+  line-height: 30px;
+  padding: 15px 15px 40px 15px;
+ }
+ .iconz2 {
+  padding-bottom: 90px;
+ }
+  
 
 
   /* ARSENIIA */
-
+.my-services {
+  padding: 100px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ }
+ .main h2 {
+  font-size: 40px;
+ }
+ .main p {
+  width: 65%;
+ }
+.part-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+ .part-1, .part-2 {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+ }
+.part {
+ margin-bottom: 0px;
+ padding: 20px;
+ line-height: 36px;
+}
+.cup-image {
+  text-align: center;
+  padding: 50px 15px;
+  background-image: linear-gradient(to top, rgba(117,78,249,0.8), rgba(117,78,249,0.8)), url(assets/call-to-action.jpg);
+  color: white;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cup-title {
+  margin-top: 65px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cup-title p {
+  width: 70%;
+}
+.buttons {
+  flex-direction: row;
+  margin: 40px 0 60px 0;
+}
+.white-button {
+  margin: 0 40px 0 0;
+  padding: 19px 30px;
+}
   /* ARSENIIA */
-
+.price-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 20px;
+}
+.price-responsive {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+}
 
 
   /* ANDRII */
@@ -856,10 +1191,33 @@ display: flex;
 .back {
    height: 400px;
 }
+  /* ANDRII */
+}
+ 
+
+@media only screen and (min-width: 550px) and (max-width: 950px) {
+  body {
+      width: 100%;
+  }
+
+  /* BEN */
+
+
+  /* BEN */
+
+
+
+  /* ARSENIIA */
+
+
+  /* ARSENIIA */
+
+
+
+  /* ANDRII */
+  
  
  /* ANDRII */
-
-
 
 
 
