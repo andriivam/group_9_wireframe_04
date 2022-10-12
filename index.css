@@ -197,7 +197,7 @@ html {
 }
 /*  ABOUT ME STYLE */
 
-  .about_me h3 {
+  .about_me h2 {
   padding: 40px 0 15px 0;
   font-family: 'Roboto', sans-serif;
   font-weight:900;
@@ -787,6 +787,7 @@ gap: 32px;
   }
 
   /* BEN */
+  
 
 .nav img {
     width: 200px;
@@ -982,34 +983,125 @@ gap: 32px;
   padding-bottom: 30px;
 }
 
+
+/* BEN ARS Form and Map*/
+.responsive-box {
+  display: flex;
+  justify-content: center;
+  background-color: #FBFBFB;
+}
 .responsiverow {
   flex-direction: row;
   width: 70%;
-  justify-content: center;
-  align-items: center;
 }
-
 .form {
   width: 50%;
+  height: 90%;
+  margin-right: 15px;
+  align-items: flex-start;
 }
-
-.mapcontainer {
+ input #message {
+  margin-bottom: 10px;
+ }
+ .mapcontainer {
   width: 50%;
+  height: 81%;
+
+/* BEN ARS Footer*/
+ }
+ .bigfooter img {
+  padding-top: 90px;
+ }
+ .footerp {
+  width: 50%;
+  line-height: 30px;
+  padding: 15px 15px 40px 15px;
+ }
+ .iconz2 {
+  padding-bottom: 90px;
+ }
+  
+
+
+  /* ARSENIIA */
+.my-services {
+  padding: 100px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-
-  /* BEN */
-
-
-
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ }
+ .main h2 {
+  font-size: 40px;
+ }
+ .main p {
+  width: 65%;
+ }
+.part-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+ .part-1, .part-2 {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+ }
+.part {
+ margin-bottom: 0px;
+ padding: 20px;
+ line-height: 36px;
+}
+.cup-image {
+  text-align: center;
+  padding: 50px 15px;
+  background-image: linear-gradient(to top, rgba(117,78,249,0.8), rgba(117,78,249,0.8)), url(assets/call-to-action.jpg);
+  color: white;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cup-title {
+  margin-top: 65px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cup-title p {
+  width: 70%;
+}
+.buttons {
+  flex-direction: row;
+  margin: 40px 0 60px 0;
+}
+.white-button {
+  margin: 0 40px 0 0;
+  padding: 19px 30px;
+}
   /* ARSENIIA */
-
-
-  /* ARSENIIA */
-
+.price-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 20px;
+}
+.price-responsive {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+}
 
 
   /* ANDRII */
-
 
   /* ANDRII */
 }
@@ -1028,7 +1120,7 @@ gap: 32px;
 
 
   /* ARSENIIA */
-
+go
 
   /* ARSENIIA */
 
